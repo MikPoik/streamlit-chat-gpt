@@ -1,0 +1,46 @@
+{
+	"type": "package",
+	"handle": "streamlit-chat-agent",
+	"version": "0.0.19",
+	"description": "",
+	"author": "",
+	"entrypoint": "Unused",
+	"public": false,
+	"plugin": null,
+	"build_config": {
+		"ignore": [
+			"tests",
+			"examples"
+		]
+	},
+	"configTemplate": {
+		"n_free_messages": {
+			"type": "number",
+			"description": "Number of free messages assigned to new users.",
+			"default": 1
+		},
+		"usd_balance": {
+			"type": "number",
+			"description": "USD balance for new users",
+			"default": 1
+		}
+	},
+	"steamshipRegistry": {
+		"tagline": "",
+		"tagline2": null,
+		"usefulFor": null,
+		"videoUrl": null,
+		"githubUrl": null,
+		"demoUrl": null,
+		"blogUrl": null,
+		"jupyterUrl": null,
+		"authorGithub": "",
+		"authorName": "",
+		"authorEmail": null,
+		"authorTwitter": null,
+		"authorUrl": null,
+		"tags": [
+			""
+		]
+	}
+}
